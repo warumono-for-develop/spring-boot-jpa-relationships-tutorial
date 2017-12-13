@@ -1,0 +1,31 @@
+server: 
+  context-path: /
+  port: 8080
+
+spring: 
+  profiles: 
+    active: loc
+  datasource: 
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connection-timeout: 30000
+      idle-timeout: 600000
+      minimum-idle: 2
+      maximum-pool-size: 30
+      pool-name: HikariPool
+      connection-test-query: SELECT 1
+      data-source-properties: 
+        cache-prep-stmts: true
+        prep-stmt-cache-size: 256
+        prep-stmt-cache-sql-limit: 2048
+        use-server-prep-stmts: true
+  jpa: 
+    show-sql: true
+    generate-ddl: false
+
+springfox: 
+  documentation: 
+    swagger: 
+      enabled: true
+      v2: 
+        path: /api-docs

@@ -1,0 +1,12 @@
+spring: 
+  profiles: dev
+  datasource: 
+    hikari: 
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://devinstance:3306/springbootjpatutorial?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+      username: developer
+      password: developer
+  jpa: 
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate: 
+      ddl-auto: update
