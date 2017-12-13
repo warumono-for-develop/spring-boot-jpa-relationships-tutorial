@@ -24,7 +24,7 @@ Dependencies
 + [com.zaxxer:HikariCP:2.7.4](https://mvnrepository.com/artifact/com.zaxxer/HikariCP)
 + [io.springfox:springfox-swagger2:2.7.0](https://mvnrepository.com/artifact/io.springfox/springfox-swagger2)
 + [io.springfox:springfox-swagger-ui:2.7.0](https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui)
-+ [com.google.guava:guava:23.5-jre](hhttps://mvnrepository.com/artifact/com.google.guava/guava)
++ [com.google.guava:guava:23.5-jre](https://mvnrepository.com/artifact/com.google.guava/guava)
 + [org.apache.commons:commons-lang3:3.7](https://mvnrepository.com/artifact/org.apache.commons/commons-lang3)
 + [com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.9.3](https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5)
 
